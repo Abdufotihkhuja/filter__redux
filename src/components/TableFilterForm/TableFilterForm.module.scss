@@ -1,0 +1,18 @@
+.panels {
+    width: 100%;
+    padding: 20px 0px;
+    form {
+        display: flex;
+        justify-content: center;
+        gap: 0px 20px;
+        div {
+            display: flex;
+            gap: 0px 15px;
+            font-weight: 700;
+            font-size: 21px;
+            input {
+                padding: 5px 10px;
+            }
+        }
+    }
+}

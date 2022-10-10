@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    padding: 20px 0px;
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    thead {
+        font-weight: 700;
+        font-size: 21px;
+        text-transform: uppercase;
+        text-align: center;
+        tr {
+            th {
+                padding: 10px 0px;
+            }
+            border-bottom: 1px solid black;
+        }
+    }
+    tbody {
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        overflow-y: auto;
+        tr {
+            &:nth-child(even) {
+                background-color: lightblue;
+            }
+            td {
+                padding: 10px 0px;
+            }
+        }
+    }
+}
